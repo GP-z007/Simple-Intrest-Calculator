@@ -36,4 +36,31 @@ Where:
 ## Usage
 
 ### Shell script
+chmod +x si.sh ./si.sh
+
+You will be prompted to enter:
+- Principal amount
+- Rate of interest (percent per time period)
+- Time period
+
+The script will print:
+- Computed simple interest
+- Final amount (principal + interest) [web:6]
+
+### Brainfuck program
+
+brainfuck si.bf
+
+Typical flow (adjust to how you implemented I/O):
+
+1. Enter principal.
+2. Enter rate.
+3. Enter time.
+4. Program outputs the calculated simple interest (and optionally the final amount). [web:2][web:11]
+
+## Notes
+
+- The Brainfuck implementation is intentionally minimal and may only support small integer ranges and basic input format.
+- No extensive input validation is performed in either version; invalid input can lead to undefined behavior. [web:2][web:11]
+
 
